@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: prettyfmt
-  version: 0.4.0
-  python_min: 3.10
+  version: "0.4.1"
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/prettyfmt-${{ version }}.tar.gz
-  sha256: 6ef431bb04d443c3ebaa190e0fa58bd41cc5b205a3c9a9ea232c7dbafc5ac87d
+  sha256: e8f2f24826a109f410514a7d2a92ef25986942c75c4a5f2ba2d1ace216e2a39e
 
 build:
   number: 0
